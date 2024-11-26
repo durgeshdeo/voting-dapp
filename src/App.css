@@ -1,0 +1,142 @@
+/* login.css */
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  text-align: center;
+  color: #ffffff;
+}
+
+.welcome-message {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.login-button {
+  background-color: #ff8000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #ff9a3b;
+  transform: scale(1.05);
+}
+
+.login-button:active {
+  background-color: #e67300;
+  transform: scale(1);
+}
+
+/* connected.css */
+body {
+  background-color: #000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.connected-container {
+  text-align: center;
+  max-width: 800px;
+  width: 90%;
+}
+
+.connected-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.connected-account {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.connected-message {
+  font-size: 20px;
+  color: #ff8000;
+  margin-bottom: 20px;
+}
+
+.voting-section {
+  margin: 20px 0;
+}
+
+.candidate-input {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.vote-button {
+  background-color: #ff8000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.vote-button:hover {
+  background-color: #ff9a3b;
+  transform: scale(1.05);
+}
+
+.vote-button:active {
+  background-color: #e67300;
+  transform: scale(1);
+}
+
+.candidates-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.candidates-table th {
+  background-color: #333;
+}
+
+.candidates-table tr:nth-child(even) {
+  background-color: #292929;
+}
