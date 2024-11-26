@@ -15,10 +15,12 @@ npx hardhat compile
 npx hardhat run --network volta scripts/deploy.js
 ```
 
-Once the contract is uploaded to the blockchain, copy the contract address and copy it in the .env file. You can also use another blockchain by writing the blockchain's endpoint in hardhat-config.
-
-Once you have pasted your private key and contract address in the .env file, simply run command
-
 ```shell
 npm start
 ```
+The UI/UX of the D-App looks as follows:
+The Voting Interface
+![Screenshot 2024-11-26 220201](https://github.com/user-attachments/assets/40356c7c-eed5-4c2a-ab28-edef83764794)
+The List of candidates:
+![Screenshot 2024-11-26 220233](https://github.com/user-attachments/assets/6556db42-8945-470c-b30a-c9ef91528037)
+
