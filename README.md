@@ -7,6 +7,7 @@ After you cloned the repository, you want to install the packages using
 ```shell
 npm install
 ```
+Start the development server using
 
 ```shell
 npm start
